@@ -117,7 +117,7 @@ public class UserController extends BaseController {
             return resp;
         }
  
-        if (!"123456".equals(verifyCode)) {
+        if (!DEFAULT_VERIFYCODE.equals(verifyCode)) {
             resp.setStatus(-1);
             resp.setMessage("验证码错误");
             return resp;
@@ -183,7 +183,7 @@ public class UserController extends BaseController {
             return resp;
         }
  
-        if (!"123456".equals(verifyCode)) {
+        if (!DEFAULT_VERIFYCODE.equals(verifyCode)) {
             resp.setStatus(-1);
             resp.setMessage("验证码错误");
             return resp;
