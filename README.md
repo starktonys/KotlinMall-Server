@@ -1,5 +1,5 @@
 # KotlinMall-Server
-- 如果使用的MySql版本是8.x以下的链接数据库驱动
+-- Kotlin Mall-Server
 
    	`com.mysql.jdbc.Driver`
 - 链接Url
